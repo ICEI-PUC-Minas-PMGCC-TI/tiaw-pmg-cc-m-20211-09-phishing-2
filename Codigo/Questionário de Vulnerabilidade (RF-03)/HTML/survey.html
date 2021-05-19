@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Questionário de Vunerabilidade</title>
+  <meta name="description" content="Survey">
+  <meta name="author" content="Caio Eduardo">
+
+  <link rel="stylesheet" href="../CSS/style_survey.css">
+</head>
+
+<body>
+
+  <div class="container">	
+    <div class="row">
+  	  <div class="two-thirds column">
+        <div class="title">
+          <h2>Questionário de Vunerabilidade</h2>
+        </div>
+
+        <div id="progress_bar"></div>
+  	  	<form class="questions_box">
+
+  	  		<div id="question-1">
+  	  		  <h2>Questão 1</h2>
+  	  			<h3>Você tem medo de se tornar uma vítima de um ataque de Phishing?</h3>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=1> O que é Phishing?<br>
+            <hr>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value=2> Nunca me preocupo<br>
+            <hr>
+            <input id="question-1-answer-c" type="radio" name="favelang" value=3> Tenho um certo nível de preocupação com isso<br>
+            <hr>
+  				  <input id="question-1-answer-d" type="radio" name="favelang" value=4> Sim, eu me preocupo muito com isso!<br><br>
+  				  <div id="submit1" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+  			  </div>
+
+  			  <div id="question-2">
+  				  <h2>Questão 2</h2>
+  				  <h3>Você utiliza a mesma senha para tudo?</h3>
+  	  		  <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Sim!<br>
+            <hr>
+  				  <input id="question-2-answer-b" type="radio" name="favelang" value="2"> Só para as senhas de cartão de crédito<br>
+            <hr>
+            <input id="question-2-answer-c" type="radio" name="favelang" value="3"> Não, uso também algumas variações da minha principal senha<br> 
+            <hr>
+  				  <input id="question-2-answer-d" type="radio" name="favelang" value="4"> Não, todas são completamente diferentes!<br><br>
+  				  <div id="submit2" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+  			  </div>
+  			
+  			  <div id="question-3">	
+  				  <h2>Questão 3</h2>
+  				  <h3>Você confia em um e-mail da sua empresa ou banco que solicite uma senha sua?</h3>
+  	  		  <input id="question-3-answer-a" type="radio" name="favelang" value="1"> Sim, afinal, o remetente é a empresa que eu trabalho ou o meu banco!<br>
+            <hr>
+  				  <input id="question-3-answer-b" type="radio" name="favelang" value="2"> Se parece oficial, sim<br>
+            <hr>
+            <input id="question-3-answer-c" type="radio" name="favelang" value="3"> Dependendo do que outras pessoas que também receberam o e-mail disserem, sim<br>
+            <hr>
+  				  <input id="question-3-answer-d" type="radio" name="favelang" value="4"> De jeito nenhum, essas empresas nunca pediriam por esse tipo informação!<br><br>
+  				  <div id="submit3" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+  			  </div>
+
+          <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Você costuma usar cartão de crédito virtual em compras online?</h3>
+            <input id="question-4-answer-a" type="radio" name="favelang" value="1"> Não<br>
+            <hr>
+            <input id="question-4-answer-b" type="radio" name="favelang" value="2"> Raramente uso<br> 
+            <hr>
+            <input id="question-4-answer-c" type="radio" name="favelang" value="3"> Uso, mas não é o meu meio de pagamento preferencial<br> 
+            <hr>
+            <input id="question-4-answer-d" type="radio" name="favelang" value="4"> Sim, usualmente<br><br>
+            <div id="submit4" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+            <h3>Você utiliza algum serviço de antivírus?</h3>
+            <input id="question-5-answer-a" type="radio" name="favelang" value="1"> Não, nem mesmo um gratuito<br>
+            <hr>
+            <input id="question-5-answer-b" type="radio" name="favelang" value="2"> Sim, utilizo a versões não pagas<br>
+            <hr>
+            <input id="question-5-answer-c" type="radio" name="favelang" value="3"> Sim, renovo anualmente a licensa de meu antivírus<br>
+            <hr>
+            <input id="question-5-answer-d" type="radio" name="favelang" value="4"> Tenho antivírus em todos os meus dispositivos, inclusive celular!<br><br>
+            <div id="submit5" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-6"> 
+            <h2>Obrigado por responder este questionário!</h2>
+            <h3>Sua pontuação é: </h3>
+            <h1 id=printtotalscore></h1>
+            <p id=printscoreinfo></p><br>
+
+            <h3>O que é Phishing?</h3>
+              <spam>
+                Phishing é uma técnica de engenharia social usada para enganar usuários e obter informações 
+                confidenciais como nome de usuário, senha e detalhes do cartão de crédito. <br><br>  
+                Fonte: <a href="https://pt.wikipedia.org/wiki/Phishing" target="_blank">https://pt.wikipedia.org/wiki/Phishing</a>    
+              </spam>
+
+            <br><br><br>  
+
+            <h3>Você sabia?</h3>
+              <spam> 
+                No Brasil, foram registradas mais de 8,4 bilhões de tentativas de ataques cibernéticos durante 2020, 
+                segundo a pesquisa Panorama de Ameaças Cibernéticas no Brasil, desenvolvida pelo FortiGuard Labs, 
+                laboratório de investigação e inteligência de ameaças da Fortinet.
+              </spam>
+
+            <br><br><br>  
+
+            <h3>Por isso, é importante manter-se sempre protegido!</h3>
+              <spam>
+                &bull; Use antivírus, mesmo que grátis, em todos os seus dispositivos, e tenha sempre certeza de que ele está atualizado 
+                       para a versão mais recente <br> <hr>
+                &bull; Jamais confie em e-mails que solicitem a sua senha, pois nenhuma empresa ou serviço faz isso <br> <hr>
+                &bull; Tenha sempre preferência por pagamento através de serviços como o Paypal em compras online, pois
+                       você terá uma proteção a mais se houver uma empresa intermediando e, consequentemente, tomando 
+                       conta do processo de pagamento para você <br> <hr>
+                &bull; Considere usar variações da sua senha principal para que caso ela seja vazada, outras contas
+                       não fiquem comprometidas também logo de cara <br> <hr>
+                &bull; Escaneie sempre pendrives e arquivos baixados, com o seu antivírus, antes de sequer pensar em acessá-los <br> <hr>
+                &bull; E-mails na caixa de spam tem grandes chances de serem golpes se oferecem algo que parece bom demais.
+                       Nunca confie neles! O Gmail já os identifica e move, automaticamente, para lá por um motivo! <br>      
+              </spam>
+          </div>
+
+  	  	</form>
+
+  	  </div>
+  	</div>
+  </div>
+
+  <script src="../JavaScript/script_survey.js"></script>
+
+</body>
+</html>
