@@ -4,12 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="avaliacao.css">
+
     <title>Avalie</title>
-    
+
 </head>
 
 <body>
     <h1>Espaço Para Avaliação</h1>
+    <h2>Avalie nosso site com as Estrelas:</h2>
     <a href="javascript:void(0)" onclick="Avaliar(1)">
         <img src="imagens/starOFF.png"  width="100px" id="s1"></a>
 
@@ -26,16 +29,29 @@
         <img src="imagens/starOFF.png" width="100px" id="s5"></a>
     
     
-    <h2>Comente o que podemos melhorar em nosso site:</h2>
+    <h2>Comente o que podemos melhorar em nosso site, o seu comentário será anónimo:</h2>
     <div id="formContatos">
         <input type="text" size="65px" id="campoNome"><br>
         <button id="btnIncluirContato">Enviar</button>
     </div>
-        
+    <h2>Veja os comentarios anteriores utilizando o botão:</h2>
     <br><button id="btnCarregaDados">Comentários anteriores</button>
-    <div id="tela"></div>
+    
+    <form>
+        <fieldset>
+            <legend>Comentários</legend>
+            <div id="tela"></div>
+        </fieldset>
+    </form>
+
+
+    
 
     <script src="script_avaliacoes.js"></script>
 </body>
 
 </html>
+
+
+
+

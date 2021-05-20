@@ -1,0 +1,49 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: lightgray;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+legend{
+    font-weight: bold;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
+
+body {
+    text-align: center;
+    background: url(/Codigo/Espacoavaliacoes_rf04/imagens/fundo2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+    
+}
+
+h1{
+    font-style: italic;
+    
+}
+
+
+legend{
+    font-size: 30px;
+}
+
+h1 {
+    background-color: lightgray;
+}
+
