@@ -113,6 +113,7 @@ function Avaliar(estrela) {
 function leDados() {
     let strDados = localStorage.getItem('db');
     let objDados = {};
+    
 
     if (strDados) {
         objDados = JSON.parse(strDados);
@@ -131,7 +132,7 @@ function leDados() {
 
 function salvaDados(dados) {
     localStorage.setItem('db', JSON.stringify(dados));
-
+    
 }
 
 function incluirContato() {
