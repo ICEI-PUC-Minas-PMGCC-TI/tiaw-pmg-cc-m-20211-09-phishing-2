@@ -22,9 +22,7 @@ Por isso, o objetivo principal do trabalho é trazer informação e conhecimento
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-O site foi hospedado no XXXX e está disponível neste endereço:
+O site foi hospedado no Vercel.app e está disponível neste endereço: https://phishing-websecurity.vercel.app/
 
 O repositório deste projeto encontra-se em: https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20211-09-phishing-2
 
