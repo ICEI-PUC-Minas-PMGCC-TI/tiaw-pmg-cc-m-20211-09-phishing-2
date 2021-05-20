@@ -23,3 +23,19 @@ Por isso, o objetivo principal do trabalho é trazer informação e conhecimento
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
+O site foi hospedado no XXXX e está disponível neste endereço:
+
+O repositório deste projeto encontra-se em: https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20211-09-phishing-2
+
+Para baixar todo o conteúdo do repositório mencionado, basta clicar no link acima, ir no botão verde "Code" e escolher a
+opção "Download ZIP". Após baixar o .zip, descompactar em uma pasta específica. Acessar essa pasta descompactada e ir em
+"Codigo" para encontrar toda a parte de código do projeto (funcionalidades e template do site).
+
+Para visualizar a parte de código do projeto, basta clicar duas vezes nos arquivos HTMLs ou abrir a pasta descompactada no
+programa Visual Studio Code e executar o Live Server com .html desejado selecionado. Caso a segunda opção seja escolhida, é
+necessário ter a extensão Live Server instalada no VSCode. 
+
+Para realizar esse processo de instalação, basta abrir este programa e clicar no ícone de "Extensões" no lado esquerdo da 
+tela. Após feito isso, pesquisar na barra de pesquisa a extensão Live Server e instalá-la. Feito isso, basta selecionar o 
+.html desejado da pasta descompactada e clicar com o botão direito. Selecionar a opção "Open with Live Server".
