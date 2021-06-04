@@ -1,0 +1,26 @@
+#btnSim{
+    background-color: green;
+    color: white;
+}
+
+#btnNao{
+    background-color: red;
+    color: white;
+}
+
+
+#tela{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
+#zero{
+    padding-top: 30px;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+}

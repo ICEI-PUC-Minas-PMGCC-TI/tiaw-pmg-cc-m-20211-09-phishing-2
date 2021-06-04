@@ -9,6 +9,7 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 * `/Documentacao`
 	* **Sprint 0 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 0).
 	* **Sprint 1 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 1).
+	* **Sprint 2 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 2).
 
 * `/Codigo/Questionário de Vulnerabilidade (RF-03)`
 	* `/Codigo/Questionário de Vulnerabilidade (RF-03)/HTML`
@@ -24,3 +25,8 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 	* `/Codigo/Espacoavaliacoes_rf04/imagens`
 		* **starOFF.png**: Imagem que compõe o sistema de rating.
 		* **starON.png**: Imagem que compõe o sistema de rating.
+
+* `/Codigo/ContadorAvaliacoes(RF10e11)`
+	* **contador.html**: Código HTML das funcionalidades RF-10 e 11.
+	* **contador.css**: Código CSS das funcionalidades RF-10 e 11.
+	* **script_contador.js**: Código JavaScript das funcionalidades RF-10 e 11.

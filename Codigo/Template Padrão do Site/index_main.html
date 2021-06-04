@@ -48,11 +48,13 @@
             <form class="form-inline my-2 my-lg-0">
                 <div class="input-group input-group-sm">
                     <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Buscar Site...">
-                    <div class="input-group-append">
+                    <a href="../ContadorAvaliacoes(RF10e11)/contador.html" target="popup-example" onClick="javascript:open('https://phishing-websecurity.vercel.app/', 'popup-example', 'height='+400+',width='+400+'resizable=no')">
+                        <div class="input-group-append">
                         <button type="button" class="btn btn-secondary btn-number">
                             <i class="fa fa-search"></i>
                         </button>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </form>
         </div>
@@ -187,7 +189,11 @@
             <div class="emdestaqueheader">
                 <section class="jumbotron text-center">
                     <div class="container">
-                        <h1 class="jumbotron-heading"><b>Número de pessoas protegidas pelo site</b></h1>                                                                                 
+                        <h1 class="jumbotron-heading"><b>Número de pessoas protegidas pelo site</b></h1>
+                        <div id="tela">  
+                            <div id="zero">0</div>     
+                        </div>
+                        <button onClick="imprimeAvaliacoes()" id="btnAtualizar">Atualizar</button>                                                                             
                     </div>
                 </section>
             </div>
@@ -220,7 +226,7 @@
         </div>
     </div> 
 </footer>
-
+    <script src="../ContadorAvaliacoes(RF10e11)/script_contador.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
