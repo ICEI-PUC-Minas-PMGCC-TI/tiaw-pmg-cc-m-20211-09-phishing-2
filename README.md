@@ -24,9 +24,9 @@ Por isso, o objetivo principal do trabalho é trazer informação e conhecimento
 
 O site foi hospedado no Vercel.app e está disponível neste endereço: https://phishing-websecurity.vercel.app/
 
-O repositório mais detalhado deste projeto encontra-se em: https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20211-09-phishing-2
+O repositório mais detalhado deste projeto (este) encontra-se em: https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20211-09-phishing-2
 
-Este diretório, criado de acordo com as sugestões dos professores da disciplina, serve para o propósito de organizar melhor os arquivos 
+Esse diretório, criado de acordo com as sugestões dos professores da disciplina, serve para o propósito de organizar melhor os arquivos 
 do projeto e fornecer informações sobre estes.
 
 Um repositório mais simples e direto, ou seja, só com os arquivos de código, foi criado também para a hospedagem do site. Este pode ser
