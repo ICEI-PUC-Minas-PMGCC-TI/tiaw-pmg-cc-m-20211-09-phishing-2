@@ -27,6 +27,9 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 	* `/Codigo/Espacoavaliacoes_rf04/imagens`
 		* **starOFF.png**: Imagem que compõe o sistema de rating.
 		* **starON.png**: Imagem que compõe o sistema de rating.
+		* **fundo.jpg**: Imagem de fundo de tela de parte da página.
+		* **fundo2.jpg**: Imagem de fundo de tela de parte da página.
+		* **fundo3.jpg**: Imagem de fundo de tela de parte da página.
 
 * `/Codigo/ContadorAvaliacoes(RF10e11)`
 	* **contador.html**: Código HTML das funcionalidades RF-10 e 11.
