@@ -35,3 +35,8 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 	* **contador.html**: Código HTML das funcionalidades RF-10 e 11.
 	* **contador.css**: Código CSS das funcionalidades RF-10 e 11.
 	* **script_contador.js**: Código JavaScript das funcionalidades RF-10 e 11.
+
+* `/Codigo/Banco_de_Dados_rf05`
+	* **sites_seguros.html**: Código HTML da funcionalidade RF-05.
+	* **sites_seguros.js**: Código CSS da funcionalidade RF-05.
+	* **sites_seguros.css**: Código JavaScript da funcionalidade RF-05.
