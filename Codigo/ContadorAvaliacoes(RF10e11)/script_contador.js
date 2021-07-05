@@ -24,4 +24,3 @@ function imprimeAvaliacoes() {
 }
 
 document.getElementById('btnSim').addEventListener('click', imprimeAvaliacoes);
-//document.getElementById('btnAtualizar').addEventListener('click', imprimeAvaliacoes);
