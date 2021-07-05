@@ -27,23 +27,67 @@ textarea {
 
 body {
     text-align: center;
-    background: url(/Codigo/Espacoavaliacoes_rf04/imagens/fundo2.jpg) no-repeat center center fixed;
+    /*background: url(/imagens/fundo2.jpg) no-repeat center center fixed;*/
     background-size: cover;
+    background-color: #f5f9fdfd;
     
     
 }
 
 h1{
     font-style: italic;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    block-size: 40px;
+}
+
+header{
+    background-color: rgb(31, 31, 31);
+}
+
+#btnIncluirContato{
+    background-color: #666; 
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
     
 }
 
+#btnIncluirContato:hover{
+    background-color: rgb(160, 160, 160); 
+    
+}
+
+#btnCarregaDados{
+     background-color: #666; 
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    
+
+}
+
+#btnCarregaDados:hover{
+    background-color: rgb(160, 160, 160); 
+}
 
 legend{
     font-size: 30px;
 }
 
-h1 {
+/*h1 {
     background-color: lightgray;
-}
+}*/
+
+
 

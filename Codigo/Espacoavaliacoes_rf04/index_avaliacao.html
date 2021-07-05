@@ -5,39 +5,89 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="avaliacao.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <title>Avalie</title>
 
 </head>
+<header>
 
-<body>
-    <h1>Espaço Para Avaliação</h1>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Phishing Web Security</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item m-auto">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sobre</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Sites_seguros/sites_seguros.html"><i class="far fa-list-alt"></i>Sites
+                            Protegidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Questionario_de_Vulnerabilidade/survey.html" target="_blank"><i
+                                class="far fa-check-square"></i>Questionário</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Espaco_Avaliacoes/index_avaliacao.html"><i
+                                class="far fa-comments"></i>Avaliação e Sugestão</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Login/index-login.html"><i
+                                class="fas fa-sign-in-alt"></i>Login/Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+
+</header>
+
+
+<body>    
+    
+    <img src="../imagens/Fundoavalie.png" alt="placeholder" width="100%" height="600">
     <h2>Avalie nosso site com as Estrelas:</h2>
     <a href="javascript:void(0)" onclick="Avaliar(1)">
-        <img src="imagens/starOFF.png"  width="100px" id="s1"></a>
+        <img src="../imagens/starOFF.png"  width="100px" id="s1"></a>
 
     <a href="javascript:void(0)" onclick="Avaliar(2)">
-        <img src="imagens/starOFF.png" width="100px"id="s2"></a>
+        <img src="../imagens/starOFF.png" width="100px"id="s2"></a>
 
     <a href="javascript:void(0)" onclick="Avaliar(3)">
-        <img src="imagens/starOFF.png" width="100px" id="s3"></a>
+        <img src="../imagens/starOFF.png" width="100px" id="s3"></a>
 
     <a href="javascript:void(0)" onclick="Avaliar(4)">
-        <img src="imagens/starOFF.png" width="100px" id="s4"></a>
+        <img src="../imagens/starOFF.png" width="100px" id="s4"></a>
 
     <a href="javascript:void(0)" onclick="Avaliar(5)">
-        <img src="imagens/starOFF.png" width="100px" id="s5"></a>
+        <img src="../imagens/starOFF.png" width="100px" id="s5"></a>
+
     
     
-    <h2>Comente o que podemos melhorar em nosso site, o seu comentário será anónimo:</h2>
+    
+    <h2>Comente o que podemos melhorar em nosso site:</h2>
+    <br>
     <div id="formContatos">
         <input type="text" size="65px" id="campoNome"><br>
+        <br>
         <button id="btnIncluirContato">Enviar</button>
     </div>
+    <br>
     <h2>Veja os comentarios anteriores utilizando o botão:</h2>
     <br><button id="btnCarregaDados">Comentários anteriores</button>
     
     <form>
+        <br>
         <fieldset>
             <legend>Comentários</legend>
             <div id="tela"></div>
@@ -48,6 +98,7 @@
     
 
     <script src="script_avaliacoes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 
 </html>
