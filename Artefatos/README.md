@@ -60,3 +60,6 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 * `/Codigo/Template Padrão do Site`
 	* **index.html**: Código HTML da página principal do site.
 	* **styles_main.css**: Código CSS da página principal do site.
+
+* `/Codigo/imagens`
+	* **Arquivos de todas as imagens utilizadas pelos codigos das funcionalidades.**
