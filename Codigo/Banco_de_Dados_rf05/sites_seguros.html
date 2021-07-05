@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sites_seguros.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <script>
+        function myFunction() {
+            // Declare variables
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('searchBar');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName('li');
+            // Loop through all list items, and hide those who don't match the search query
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0]; txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+    <title>Teste Java Script</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <div class="icone">
+            <a href="../index.html"><i id="back" class="fas fa-arrow-left"></i></a>
+            </div>
+            <a class="navbar-brand" href="../index.html">Phishing Web Security</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Sites Seguros</h1>
+        <div id="textWrapper">
+            <p>Sites não confiaveis retirados do banco de dados do Procon.sp.gov.br (02/06/2021)<br>
+                <a
+                    href="https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php">https://sistemas.procon.sp.gov.br/</a>
+            </p>
+        </div>
+        <!--List-->
+        <div id="searchWrapper">
+            <input type="text" id="searchBar" onkeyup="myFunction()" placeholder="Pesquise um site." />
+            <ul id="myUL">
+                <li><a href="https://www.google.com/">Google<br>www.google.com.br<br>Seguro</a></li>
+                <li><a href="https://www.youtube.com.br">Youtube<br>www.youtube.com.br<br>Seguro</a></li>
+                <li><a href="https://br.ign.com/">IGN<br>br.ign.com<br>Seguro</a></li>
+                <li><a href="https://www.americanas.com.br/">Americanas<br>www.americanas.com.br<br>Seguro</a></li>
+                <li><a href="https://www.kabum.com.br/">Kabum<br>www.kabum.com.br<br>Seguro</a></li>
+                <li><a href="https://www.amazon.com.br/">Amazon<br>www.amazon.com.br<br>Seguro</a></li>
+                <li><a href="https://globoesporte.globo.com/">Globo Esporte<br>globoesporte.globo.com<br>Seguro</a></li>
+                <li><a href="https://www.udemy.com/">Udemy<br>www.udemy.com<br>Seguro</a></li>
+                <li><a href="https://www.alura.com.br/">Alura<br>www.alura.com.br<br>Seguro</a></li>
+                <li><a href="https://www.blizzard.com/">Blizzard<br>www.blizzard.com<br>Seguro</a></li>
+                <li><a href="#">02eventos<br>02eventos.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">belezaexpressa.com<br>belezaexpressa.com<br>Não Confiavel</a></li>
+                <li><a href="#">frozenshop<br>frozenshop.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">magazinefernando<br>magazinefernando.com<br>Não Confiavel</a></li>
+                <li><a href="#">outletz<br>outletz.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">resetway<br>resetway.com<br>Não Confiavel</a></li>
+                <li><a href="#">spardashop<br>spardashop.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">vortexair<br>vortexair.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">shoppingviracopos<br>shoppingviracopos.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">kopers<br>kopers.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">corpoperfeito<br>corpoperfeito.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">feetoutlet<br>feetoutlet.com<br>Não Confiavel</a></li>
+                <li><a href="#">game7<br>game7.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">paranaofertas<br>paranaofertas.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">tenisrunning<br>tenisrunning.com.br<br>Não Confiavel</a></li>
+                <li><a href="#">rosadistribuidora<br>rosadistribuidora.com.br<br>Não Confiavel</a></li>
+                <li><a href="https://www.monnieri.com.br/">Monnierri<br>monnieri.com.br<br>Seguro</a></li>
+                <li><a href="https://www.dafiti.com.br/">Dafiti<br>www.dafiti.com.br<br>Seguro</a></li>
+                <li><a href="https://www.casasbahia.com.br/">Casas Bahia<br>www.casasbahia.com.br<br>Seguro</a></li>
+                <li><a href="https://www.mercadolivre.com.br/">Mercado Livre<br>www.mercadolivre.com.br<br>Seguro</a>
+                </li>
+                <li><a href="https://www.amazon.com/">Amazon<br>www.amazon.com<br>Seguro</a></li>
+                <li><a href="https://www.ebay.com/">Ebay<br>www.ebay.com<br>Seguro</a></li>
+                <li><a href="https://capricho.abril.com.br/">Capricho<br>capricho.abril.com.br<br>Seguro</a></li>
+                <li><a href="https://www.facebook.com/">Facebook<br>www.facebook.com<br>Alerta<br></a></li>
+            </ul>
+        </div>
+        <div id="textWrapper">
+            <p>Não encontrou o site que procurava ou deseja fazer uma sugestão</p>
+            <form method="GET" action="/Mail_to_form/mail.html">
+                <input class="formButton" type="submit" value="Caixinha de Sugestões">
+            </form>
+        </div>
+    </div>
+    <!-- Rodapé -->
+    <footer class="text-light">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+                <div class="direitosautorais">
+                    Copyright 2021 - Trabalho Interdisciplinar: Aplicações Web (TIAW) - <b>ICEI PUC Minas</b>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <div class="backtotop">
+                    <a href="#">Back to top</a>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2">
+                <div class="logobottom">
+                    <a class="navbar-brand" href="../index.html">Phishing Web Security</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script_contador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
