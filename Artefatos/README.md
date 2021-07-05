@@ -10,6 +10,8 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 	* **Sprint 0 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 0).
 	* **Sprint 1 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 1).
 	* **Sprint 2 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 2).
+	* **Sprint 3 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 1) **IMPORTANTE: Não foi possível acrescentar esse item a este diretório pois seu tamanho ultrapassa os 25MB permitidos.
+	* **Sprint 4 - Documento - Grupo 9 - Phishing 2.pdf**: Documentação do projeto (versão Sprint 2) **IMPORTANTE: Não foi possível acrescentar esse item a este diretório pois seu tamanho ultrapassa os 25MB permitidos.
 
 * `/Codigo/Questionário de Vulnerabilidade (RF-03)`
 	* `/Codigo/Questionário de Vulnerabilidade (RF-03)/HTML`
