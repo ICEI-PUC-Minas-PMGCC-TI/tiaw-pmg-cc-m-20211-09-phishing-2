@@ -24,11 +24,18 @@ Por isso, o objetivo principal do trabalho é trazer informação e conhecimento
 
 O site foi hospedado no Vercel.app e está disponível neste endereço: https://phishing-websecurity.vercel.app/
 
-O repositório deste projeto encontra-se em: https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20211-09-phishing-2
+O repositório mais detalhado deste projeto encontra-se em: https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20211-09-phishing-2
 
-Para baixar todo o conteúdo do repositório mencionado, basta clicar no link acima, ir no botão verde "Code" e escolher a
-opção "Download ZIP". Após baixar o .zip, descompactar em uma pasta específica. Acessar essa pasta descompactada e ir em
-"Codigo" para encontrar toda a parte de código do projeto (funcionalidades e template do site).
+Este diretório, criado de acordo com as sugestões dos professores da disciplina, serve para o propósito de organizar melhor os arquivos 
+do projeto e fornecer informações sobre estes.
+
+Um repositório mais simples e direto, ou seja, só com os arquivos de código, foi criado também para a hospedagem do site. Este pode ser
+acessado em https://github.com/LucasZeD/Phishing-Web-2. É importante reforçar que o site hospedado em ambiente online utiliza, na verdade, 
+esse segundo diretório mencionado. 
+
+Para baixar todo o conteúdo do primeiro repositório mencionado, basta clicar no link acima, ir no botão verde "Code" e escolher a 
+opção "Download ZIP". Após baixar o .zip, descompactar em uma pasta específica. Acessar essa pasta descompactada e ir em "Codigo" 
+para encontrar toda a parte de código do projeto (funcionalidades e template do site).
 
 Para visualizar a parte de código do projeto, basta clicar duas vezes nos arquivos HTMLs ou abrir a pasta descompactada no
 programa Visual Studio Code e executar o Live Server com .html desejado selecionado. Caso a segunda opção seja escolhida, é
