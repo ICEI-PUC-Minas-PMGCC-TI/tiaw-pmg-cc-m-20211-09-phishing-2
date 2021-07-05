@@ -40,3 +40,6 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 	* **sites_seguros.html**: Código HTML da funcionalidade RF-05.
 	* **sites_seguros.js**: Código CSS da funcionalidade RF-05.
 	* **sites_seguros.css**: Código JavaScript da funcionalidade RF-05.
+
+* `/Codigo/Comentarios_Rf09`
+	* **comentarios.html**: Código HTML da funcionalidade RF-09.
