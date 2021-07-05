@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style_login.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -27,11 +28,11 @@
                                 <input type="text" name="password" id="password" class="form-control">
                             </div>
                             <div class="form-group text-right">
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="enviar">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Enviar">
                             </div>
                         </form>
                     </div>
-                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">criar conta</button>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Criar Conta</button>
                 </div>
             </div>
         </div>
@@ -61,7 +62,7 @@
                                 <input type="text" name="txt_nome" id="txt_nome" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="email" class="text-info">email</label><br>
+                                <label for="email" class="text-info">Email</label><br>
                                 <input type="text" name="txt_email" id="txt_email" class="form-control">
                             </div>
                             <div class="form-group">
@@ -86,30 +87,25 @@
     <script src="script-login.js"></script>
     <script>
 
-        // Declara uma função para processar o formulário de login
         function processaFormLogin(event) {
-            // Cancela a submissão do formulário para tratar sem fazer refresh da tela
+
             event.preventDefault();
 
-            // Obtem os dados de login e senha a partir do formulário de login
             var username = document.getElementById('username').value;
             var password = document.getElementById('password').value;
 
-            // Valida login e se estiver ok, redireciona para tela inicial da aplicação
             resultadoLogin = loginUser(username, password);
             if (resultadoLogin) {
-                window.location.href = '../Template Padrão do Site/index_main.html';
+                window.location.href = '../index.html';
             }
-            else { // Se login falhou, avisa ao usuário
+            else { 
                 alert('Usuário ou senha incorretos');
             }
         }
 
         function salvaLogin(event) {
-            // Cancela a submissão do formulário para tratar sem fazer refresh da tela
             event.preventDefault();
 
-            // Obtem os dados do formulário
             let login = document.getElementById('txt_login').value;
             let nome = document.getElementById('txt_nome').value;
             let email = document.getElementById('txt_email').value;
@@ -120,20 +116,16 @@
                 return
             }
 
-            // Adiciona o usuário no banco de dados
             addUser(nome, login, senha, email);
             alert('Usuário salvo! Proceda com o login...');
 
-            // Oculta a div modal do login
             //document.getElementById ('loginModal').style.display = 'none';
             $('#loginModal').modal('hide');
         }
 
-        // Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
+
         document.getElementById('login-form').addEventListener('submit', processaFormLogin);
 
-
-        // Associar salvamento ao botao
         document.getElementById('btn_salvar').addEventListener('click', salvaLogin);
     </script>
 
