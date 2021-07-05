@@ -38,8 +38,25 @@ Liste os artefatos produzidos, com suas localizações e descrição do conteúd
 
 * `/Codigo/Banco_de_Dados_rf05`
 	* **sites_seguros.html**: Código HTML da funcionalidade RF-05.
-	* **sites_seguros.js**: Código CSS da funcionalidade RF-05.
-	* **sites_seguros.css**: Código JavaScript da funcionalidade RF-05.
+	* **sites_seguros.css**: Código CSS da funcionalidade RF-05.
+	* **sites_seguros.js**: Código JavaScript da funcionalidade RF-05.
 
 * `/Codigo/Comentarios_Rf09`
 	* **comentarios.html**: Código HTML da funcionalidade RF-09.
+
+* `/Codigo/Login`
+	* **index-login.html**: Código HTML da funcionalidade RF-06.
+	* **script-login.js**: Código JavaScript da funcionalidade RF-06.
+
+* `/Codigo/Google_News`
+	* **Botao_Noticia.html**: Código HTML das funcionalidades RF-12 e 13.
+	* **Styles_Noticia.css**: Código CSS das funcionalidades RF-12 e 13.
+	* **Noticia_Api.js**: Código JavaScript das funcionalidades RF-12 e 13.
+
+* `/Codigo/Sugestão de Site Seguros (RF14)`
+	* **mail.html**: Código HTML da funcionalidade RF-14.
+	* **mail.css**: Código CSS da funcionalidade RF-14.
+
+* `/Codigo/Template Padrão do Site`
+	* **index.html**: Código HTML da página principal do site.
+	* **styles_main.css**: Código CSS da página principal do site.
